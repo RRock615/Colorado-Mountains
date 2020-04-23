@@ -1,0 +1,103 @@
+/*Rachel Rockenfeller*/
+/*References:https://www.w3schools.com/*/
+/*References: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_form */
+body {
+	background-image: url("https://www.glennrandall.com/images/sunrise_from_windom_peak_11x14-2_800.jpg?crc=506353075");
+        background-size: cover;
+}
+
+h4{
+	font-weight: bold;
+ }
+
+table,th,td{
+	border: 2px solid black;
+	margin: 2px;
+	padding: 10px;
+	border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+	background-color: #dae5f4;
+}
+
+#Intro{
+	background-color: green;
+	padding: 20px;
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+
+#login{
+        background-color: white;
+        text-align: center;
+	border-style: solid;
+	padding: 50px;
+        display: table;
+        position: sticky;
+        margin: 75px auto 75px;
+        
+}
+
+#packing{
+        background-color: white;
+	border-style: solid;
+	padding: 50px;
+        display: table;
+        position: sticky;
+        margin: 75px auto 75px;
+}
+
+  
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  bottom: 20px;
+  width: 280px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 200px;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 800px;
+  padding: 15px;
+  background-color: white;
+  border-style: solid;
+}
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  margin-bottom:10px;
+  opacity: 2;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #DC4C4C
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
